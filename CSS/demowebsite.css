@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    /* width: 100%;
+    display: flex; */
+    height: 500px;
+
+}
+
+.header .image .banner {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    display: flex;
+    opacity: 0.5;
+}
+
+.header .image .banner .number {
+    width: 20%;
+    /* font-size: 20px; */
+    /* color: brown; */
+    padding: 20px;
+    margin-left: 20px;
+    /* color: white;
+    text-decoration: none; */
+}
+
+.header .image .banner .number a {
+    font-size: 30px;
+    color: black;
+
+}
+
+.header .image .banner .space {
+    width: 20%;
+}
+
+.header .image .banner .icon {
+    width: 60%;
+    padding: 20px;
+    /* background-color: blue; */
+    /* margin-left: 460p0x; */
+    text-align: right;
+    margin-right: 50px;
+    /* display: inline; */
+}
+
+.header .image .banner .icon a {
+    color: blue;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.image .content {
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    padding: 40px;
+    /* margin-left: 35%; */
+    text-align: center;
+    text-decoration: solid;
+    color: rgb(49, 146, 146);
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+
+    /* text-shadow: 5px 5px white; */
+
+}
+
+.header .image {
+    background-image: url(resortimg.jpg);
+    height: 1000px;
+    width: 100%;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    position: absolute;
+}
+
+.header .image .banner2 {
+    width: 100%;
+    height: 50px;
+    margin-top: 120px;
+    padding: 20px;
+    /* background-color: white; */
+    position: sticky;
+    top: 0;
+    display: flex;
+    /* opacity: 0.2; */
+
+}
+
+.header .image .banner2 .menu {
+    width: 70%;
+    padding: 20px;
+    font-size: 20px;
+
+}
+
+.header .image .banner2 .menu a {
+    /* font-size: 15px; */
+    color: rgb(14, 14, 29);
+}
+
+.header .image .banner2 .search {
+    width: 30%;
+    padding: 20px;
+
+}
+
+input[type="text"] {
+    border-radius: 20px;
+    height: 20px;
+    width: 150px;
+    color: orange;
+}
