@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Details Form</title>
+    <style>
+        h1 {
+            background-color: cadetblue;
+            color: brown;
+        }
+
+        .main {
+            background-color: aquamarine;
+            color: blue;
+        }
+
+        h2 {
+            color: brown;
+        }
+    </style>
+
+</head>
+
+<body>
+    <form action="" method="post" align="left">
+        <h1 align="center">Individual Registration</h1>
+        <div class="main">
+            <h2>User Particulars</h2>
+            <table width="100%">
+                <tr>
+                    <td align="right">
+                        <label for="lid">Login ID</label>
+                    </td>
+                    <td>
+                        <input type="text" id="lid" required placeholder="Enter Your User ID" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="right">
+                        <label for="pass">Password</label>
+                    </td>
+                    <td>
+                        <input type="text" name="password" id="pass" required placeholder="Enter 8 digit password"
+                            maxlength="14" minlength="6" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="right">
+                        <label for="cpass">Confirm Password</label>
+                    </td>
+                    <td>
+                        <input type="text" name="COnfirm" id="cpass" required placeholder="Confirm Password" />
+                    </td>
+                </tr>
+            </table>
+
+            <h2>Personal Particulars</h2>
+            <table width="100%">
+                <tr>
+                    <td align="right">
+                        <label for="salutation">Salutation</label>
+                    </td>
+                    <td>
+                        <select name="salutation" id="salutation" required>
+                            <option value="">Select</option>
+                            <option value="Mr.">Mr.</option>
+                            <option value="Mrs.">Mrs.</option>
+                            <option value="Miss.">Miss.</option>
+                        </select>
+                    </td>
+                    <td align="right">
+                        <label for="fname">First Name</label>
+                    </td>
+                    <td>
+                        <input type="text" name="fname" id="fname" placeholder="Enter First Name" required />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="right">
+                        <label for="mname">Middle Name</label>
+                    </td>
+                    <td>
+                        <input type="text" name="mname" id="mname" placeholder="Enter Father Name" required />
+                    </td>
+                    <td align="right">
+                        <label for="lname">Last Name</label>
+                    </td>
+                    <td>
+                        <input type="text" name="lname" id="lname" placeholder="Enter Surname" required />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="right">
+                        <label for="rstatus">Resident Status</label>
+                    </td>
+                    <td>
+                        <select name="rstatus" id="rstatus" required>
+                            <option value="">Select</option>
+                            <option value="ror">ROR [Resident]</option>
+                            <option value="rnor">RNOR [Resident but not Ordinarily Resident]</option>
+                            <option value="nr">NR [Non Resident]</option>
+                        </select>
+                    </td>
+                    <td align="right">
+                        <label for="country">Country</label>
+                    </td>
+                    <td>
+                        <select name="country" id="country" required>
+                            <option value="">Select</option>
+                            <option value="Australia">Australia</option>
+                            <option value="India">India</option>
+                            <option value="South Africa">South Africa</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="right">
+                        <label for="mail">Email-ID</label>
+                    </td>
+                    <td>
+                        <input type="email" name="mail" id="mail" placeholder="xyz@gmail.com" required />
+                    </td>
+                    <td align="right">
+                        <label for="mno">Mobile Number</label>
+                    </td>
+                    <td>
+                        <input type="text" name="mno" id="mno" minlength="10" maxlength="10" required
+                            placeholder="Enter 10 digit Number" />
+                    </td>
+                </tr>
+            </table>
+
+            <h2>Account Particulars</h2>
+            <table width="100%">
+                <tr>
+                    <td align="right">
+                        <label for="acno">15 Digit Account No</label>
+                    </td>
+                    <td>
+                        <input type="text" name="acno" id="acno" maxlength="15" minlength="15"
+                            placeholder="Please Enter Account Number" required />
+                    </td>
+                    <td align="right">
+                        <label for="nname">Nick Name</label>
+                    </td>
+                    <td>
+                        <input type="text" name="nname" id="nname" />
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label for="ftransfer">Fund Transfer</label>
+                    </td>
+                    <td>
+                        <select name="ftransfer" id="ftransfer" required>
+                            <option value="">Select</option>
+                            <option value="NEFT">NEFT</option>
+                            <option value="RTGS">RTGS</option>
+                            <option value="IMPS">IMPS</option>
+                            <option value="UPI">UPI</option>
+                            <option value="Cheque">Cheque</option>
+                        </select>
+
+                    </td>
+                </tr>
+            </table>
+            <h2>DECLARATION</h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At rerum, explicabo voluptate asperiores molestias
+            ut est rem earum ipsa qui voluptates alias optio consequuntur itaque dolores, quae vero, voluptatibus hic.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore libero nemo tenetur voluptatibus
+            temporibus, doloribus omnis ipsum quas reprehenderit obcaecati dolorum nihil nulla asperiores, placeat ullam
+            dignissimos aut ut illum.
+            <br>
+            <br>
+            <br>
+            <table width="100%">
+                <tr>
+                    <td align="center">
+                        <input type="Submit" name="submit" id="submit" />
+
+                        <input type="Reset" name="reset" id="reset">
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </form>
+</body>
+
+</html>
