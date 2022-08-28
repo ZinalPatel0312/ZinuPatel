@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .color {
+            background-color: bisque;
+            background-size: cover;
+        }
+
+        .main {
+            height: 150px;
+            width: 150px;
+            border-top: 10px solid rgb(9, 5, 6);
+            /* border-bottom: 10px solid transparent; */
+            /* / border-left: 10px solid transparent; */
+            /* border-right: 10px solid transparent; */
+            margin: 200px auto;
+            /* margin-top: 10px; */
+            position: relative;
+            animation-name: animation1;
+            animation-duration: 1s;
+            /* animation-timing-function: linear; */
+            /* animation-delay: 1s; */
+            animation-iteration-count: infinite;
+            animation-direction: reverse;
+            border-radius: 50%;
+        }
+
+        .sub {
+            height: 100px;
+            width: 100px;
+            border-left: 10px solid rgb(98, 36, 46);
+            /* border-right: 10px solid transparent; */
+            /* border-top: 10px solid transparent; */
+            /* border-bottom: 10px solid transparent; */
+            top: 20px;
+            left: 20px;
+            position: absolute;
+            animation-name: animation1;
+            animation-duration: 1s;
+            /* animation-timing-function: ease; */
+            /* animation-delay: 2 s; */
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+            border-radius: 50%;
+        }
+
+        @keyframes animation1 {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="color">
+        <div class="main">
+            <div class="sub">
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
