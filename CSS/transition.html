@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Document
+    </title>
+    <style>
+        div {
+            height: 100px;
+            width: 100px;
+            background-color: azure;
+            border: 5px dashed pink;
+            margin: 20px auto;
+
+        }
+
+        div:hover {
+            height: 200px;
+            width: 200px;
+            /* transition: ; */
+        }
+
+        .div1 {
+            transition-delay: 1s;
+            transition-duration: 2s;
+            transition-property: all;
+            transition-timing-function: ease
+        }
+
+        .div2 {
+            transition: 2s all linear;
+            transition-delay: 1s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div1"></div>
+    <div class="div2"></div>
+</body>
+
+</html>
