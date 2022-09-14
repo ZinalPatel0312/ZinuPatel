@@ -267,6 +267,7 @@ header {
     padding-bottom: 20px;
     font-weight: bold;
     font-family: cursive;
+    color: black;
 
     /* text-align: right; */
 }
@@ -274,6 +275,7 @@ header {
 .products .prod_img p {
     padding: 10px;
     font-family: cursive;
+    color: gray;
 }
 
 .products .prod_img .prod_2 {
@@ -301,4 +303,63 @@ header {
     padding: 20px;
     text-align: center;
     /* font-weight: bold; */
+}
+
+.services {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    /* margin-top: 50px; */
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+    padding: 50px;
+    background-color: white;
+}
+
+.services .coffee_ser {
+    width: 40%;
+}
+
+.services .coffee_ser h5 {
+    color: gray;
+    text-transform: uppercase;
+    font-family: cursive;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.services .coffee_ser h1 {
+    color: rgb(111, 71, 171);
+    text-transform: capitalize;
+    font-family: cursive;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.services .coffee_ser p {
+    color: gray;
+    text-transform: capitalize;
+    font-family: cursive;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.services .coffee_ser button {
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: orange;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.services .coffeetype_1 {
+    width: 30%;
+}
+
+.services .coffeetype_2 {
+    width: 30%;
 }
