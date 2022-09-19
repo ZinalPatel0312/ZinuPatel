@@ -431,13 +431,20 @@ header {
 }
 
 .gallery .images {
+    height: 170px;
+    width: 275px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* gap: 30px; */
     row-gap: 20px;
     column-gap: 0px;
     padding: 40px;
+    margin-left: 90px;
 
+}
+
+.gallery .images .gall_img {
+    height: auto;
+    position: relative;
 }
 
 .gallery .images img {
@@ -445,16 +452,74 @@ header {
     width: 275px;
     border-radius: 20px;
     margin-left: 35px;
+
 }
 
-.gallery .images img:hover {
+.gallery .details_img {
+    position: absolute;
+    height: 170px;
+    width: 275px;
+    margin-left: 35px;
+
+}
+
+.gallery .details_img h1 {
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: white;
+    text-align: center;
+}
+
+.gallery .details_img h5 {
+    padding-top: 20px;
+    /* margin-top: 20px; */
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: gray;
+    text-align: center;
+}
+
+.gallery .gall_img .details_img {
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+    height: 0;
+    overflow: hidden;
+    /* transition: 1s all ease; */
+    border-radius: 20px;
+
+    transition: 1s all ease 280ms;
+    /* transform: matrix(2); */
+    /* background-size: cover; */
+
+}
+
+.gallery .gall_img:hover .details_img {
+    height: 98%;
+    transform: translateY(2) scale3d(1, 1, 2);
+    align-items: center;
+}
+
+/* .gallery .images img {
+    height: 170px;
+    width: 275px;
+    border-radius: 20px;
+    margin-left: 35px;
+} */
+
+/* .gallery .images img:hover {
     color: black;
     opacity: 0.5;
-    /* transform: translateY(0) scale3d(0, 0, 1); */
-    /* transition: 500ms all ease 500ms; */
-
-}
-
+    
+} */
 .profile {
     height: 500px;
     width: 100%;
@@ -482,7 +547,7 @@ header {
     /* text-align: center; */
 }
 
-img {
+.profile img {
     height: 133px;
     width: 140px;
     border-radius: 50%;
