@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fade Function</title>
+    <!-- jquery cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // fadeIn Function
+            $("#btn_fadein").click(function () {
+                $("#div1").fadeIn(2000);
+            });
+
+            // fadeOut Function
+            $("#btn_fadeout").click(function () {
+                $("#div1").fadeOut(2000);
+            });
+
+            // FadeToggle functiomn
+            $("#btn_fadetoggle").click(function () {
+                $("#div1").fadeToggle(2000);
+            });
+
+            // FadeTo Function
+            $("#btn_fadeto").click(function () {
+                $("#div2").fadeTo(1000, 0.9);
+                $("#div3").fadeTo(1000, 0.5);
+                $("#div4").fadeTo(1000, 0.2);
+            });
+        });
+    </script>
+    <style>
+        #div1 {
+            display: none;
+            height: 200px;
+            width: 200px;
+            margin-top: 10px;
+            background-color: brown;
+        }
+
+        #div2 {
+            height: 200px;
+            width: 200px;
+            margin-top: 10px;
+            background-color: black;
+        }
+
+        #div3 {
+            height: 200px;
+            width: 200px;
+            margin-top: 10px;
+            background-color: brown;
+        }
+
+        #div4 {
+            height: 200px;
+            width: 200px;
+            margin-top: 10px;
+            background-color: rgb(17, 32, 27);
+        }
+    </style>
+</head>
+
+<body>
+    <button id="btn_fadein">FadeIn</button>
+    <button id="btn_fadeout">FadeOut</button>
+    <button id="btn_fadetoggle">FadeToggle</button>
+    <button id="btn_fadeto">FadeTo</button>
+
+    <hr>
+    <div id="div1"></div>
+    <div id="div2"></div>
+    <div id="div3"></div>
+    <div id="div4"></div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SlideUp-SlideDown</title>
+
+    <!-- jquery cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // slide down function
+            $("#slide_down").click(function () {
+                $("#div1").slideDown(2000);
+            });
+            // slide up function
+            $("#slide_up").click(function () {
+                $("#div2").slideUp(2000);
+            });
+
+            // slide toggle
+            $("#slide_toggle").click(function () {
+                $("#div3").slideToggle(2000);
+            });
+        });
+    </script>
+
+    <style>
+        #slide_down {
+            height: 20px;
+            width: 100px;
+        }
+
+        #div1 {
+            display: none;
+            background-color: brown;
+            height: 100px;
+        }
+
+        #div2 {
+            background-color: rgb(160, 119, 119);
+            height: 100px;
+        }
+
+        #div3 {
+            display: none;
+            background-color: rgb(137, 68, 90);
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="slide_down">Slide Down</button>
+    <hr>
+    <div id="div1"></div>
+
+    <hr>
+    <button id="slide_up">Slide Up</button>
+    <hr>
+    <div id="div2"></div>
+
+    <hr>
+    <button id="slide_toggle">Slide Toggle</button>
+    <hr>
+    <div id="div3"></div>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hide-Show-Toggle</title>
+    <!-- jquery cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // hide function
+
+            $("#btn1").click(function () {
+                $("h1").hide(2000);
+            });
+
+            // show function
+            $("#btn2").click(function () {
+                $("h1").show(2000);
+            });
+
+            // toggle function
+            $("#btn3").click(function () {
+                $("h2").toggle(2000);
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <button id="btn1">Hide Functions</button>
+    <button id="btn2">Show Functions</button>
+    <button id="btn3">Toggle Functions</button>
+
+    <hr>
+    <h1>Hello User</h1>
+
+    <hr>
+    <h2>Hello World</h2>
+
+</body>
+
+</html>
