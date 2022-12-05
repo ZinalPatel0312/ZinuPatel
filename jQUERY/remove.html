@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+</head>
+<style>
+    #div1 {
+        background-color: pink;
+        border: 2px solid maroon;
+        height: 200px;
+        width: 200px;
+        padding: 20px;
+    }
+</style>
+
+<script>
+    $(document).ready(function () {
+        $("#btnremove").click(function () {
+            $("#div1").remove();
+        });
+        $("#btnempty").click(function () {
+            $("#div1").empty();
+        });
+    });
+</script>
+
+<body>
+    <!-- remove() used to remove entire division -->
+    <button id="btnremove">Remove</button>
+    <!-- empty() used to remove only content of division -->
+    <button id="btnempty">Empty</button>
+    <hr>
+    <div id="div1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, sed. Quae, vero? Quod totam
+        consectetur
+        quisquam corporis, magnam doloribus, enim placeat necessitatibus nisi incidunt provident tempora eos ad esse
+        quia.</div>
+</body>
+
+</html>

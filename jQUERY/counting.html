@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    let counts = setInterval(updated);
+    let upto = 0;
+    function updated() {
+        var count = document.getElementById("counter");
+        count.innerHTML = ++upto;
+        if (upto == 500) {
+            clearInterval(counts);
+        }
+    }
+</script>
+
+<body>
+    <div id="counter"></div>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+
+        $(document).ready(function () {
+            // append()
+            $("#btn_append").click(function () {
+                $("h3").append("<span>!!!!</span>");
+            });
+
+            // prepend()
+            $("#btn_prepend").click(function () {
+                $("h2").prepend("<span>@@@</span>");
+            });
+
+            // before()
+            // $("#btn_before").click(function () {
+            //     $("#img1").before("<span>@@</span>");
+            // });
+
+            // after()
+            $("#btn_after").click(function () {
+                $("#img2").after("<span>!!!</span>");
+            });
+
+            // before()--add content with image through
+            $("#btn_before").click(function () {
+                $("#img1").before("<img src='images/image2.jpeg' height='250px' width='250px'>");
+            });
+        });
+
+    </script>
+    <style>
+        img {
+            height: 200px;
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="btn_append">Append</button>
+    <button id="btn_prepend">Prepend</button>
+    <button id="btn_before">Before</button>
+    <button id="btn_after">After</button>
+    <hr>
+    <h3>Hello User</h3>
+    <hr>
+    <h2>Hello World</h2>
+    <hr>
+    <img src="images/image1.jpeg" alt="" id="img1">
+    <hr>
+    <img src="images/image2.jpeg" alt="" id="img2">
+
+</body>
+
+</html>

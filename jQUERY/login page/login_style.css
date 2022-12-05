@@ -31,8 +31,14 @@ button {
 }
 
 #login_toggle {
+    margin-left: 600px;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 200px;
     height: 50px;
-    width: 100%;
+    width: 300px;
+    text-align: center;
     border: 2px solid transparent;
     border-radius: 10px;
     padding: 3px;
