@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/solid.min.css"
+        integrity="sha512-uj2QCZdpo8PSbRGL/g5mXek6HM/APd7k/B5Hx/rkVFPNOxAQMXD+t+bG4Zv8OAdUpydZTU3UHmyjjiHv2Ww0PA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="maxwidth_576.css">
+    <link rel="stylesheet" href="minwidth_576.css">
+    <link rel="stylesheet" href="minwidth_768.css">
+    <link rel="stylesheet" href="minwidth_992.css">
+    <link rel="stylesheet" href="minwidth_1200.css">
+    <!-- jquery cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!-- css cdn -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
+    <!-- js cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+</head>
+<!-- <style>
+    .dark-mode {
+        background-color: rgb(67, 66, 66);
+        color: white;
+    }
+</style> -->
+<!-- <script>
+    let icon = document.querySelector(".fa-moon");
+    let pagebody = document.querySelector("body");
+
+    icon.addEventListener("click", function () {
+        pagebody.classList.toggle("dark-mode");
+        if (pagebody.classList.contains("dark-mode") == true) {
+            icon.classList.remove("fa-moon");
+            icon.innerHTML = "<span class='fa-sharp fa-solid fa-sun'></span>";
+        } else {
+            icon.classList.remove("fa-sun");
+            icon.innerHTML = "<span class='fa-sharp fa-solid fa-moon'></span>";
+        }
+    });
+</script> -->
+
+<body>
+    <header class="menu_header">
+        <div class="back_image">
+
+            <div class="logo">
+                <a href="#">
+                    <span class="fa-sharp fa-solid fa-mug-saucer"></span>Coffee Cafe</a>
+            </div>
+            <div class="menus">
+                <ul>
+                    <li class="home"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Our Coffees</a></li>
+                    <li class="btnblog"><a href="#">Blog</a><span class="fa-sharp fa-solid fa-angle-down"></span>
+                        <div class="blog_menu">
+                            <a href="#">Blog Posts</a>
+                            <a href="#">Blog Single Posts</a>
+
+                        </div>
+                    </li>
+                    <li><a href="#">Pages</a><span class="fa-sharp fa-solid fa-angle-down"></span></li>
+                </ul>
+            </div>
+            <div class="search">
+                <span class="fa-sharp fa-solid fa-magnifying-glass"></span>
+                <button>Buy Now</button>
+                <span class="fa-sharp fa-solid fa-moon"></span>
+            </div>
+        </div>
+    </header>
+    <div class="info">
+        <h1>Elite Coffee Brands</h1>
+        <p>Coffee Shop is the place where you can get flavorful coffee strains from global elite brands and roasters
+            at
+            very affordable price. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ab
+            repellat
+            ea. Maxime sapiente iusto aut nihil, tempora quam veritatis, dolore itaque quasi assumenda doloribus quo
+            nesciunt, temporibus sequi! Dolor?</p>
+        <button>Read More</button>
+    </div>
+
+
+    <section class="more_info">
+        <div class="coffee_info">
+            <h5>Best For You</h5>
+            <h1>who we are.</h1>
+            <p>We make the delicious coffee for the coffee lovers. We are a team of dedicated
+                coffee fans who celebrate exceptional coffee brands and roasters. Lorem ipsum feugiat.</p>
+            <button>Learn More</button>
+        </div>
+        <div class="coffee_images">
+            <div class="image1">
+                <img src="CSS/img1.jpg" alt="">
+            </div>
+            <div class="image2">
+                <img src="CSS/img2.jpg" alt="">
+            </div>
+            <div class="image3">
+                <img src="CSS/img3.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="firstline">our services</div>
+        <div class="secondline">our products</div>
+        <div class="prod_img">
+            <div class="prod_1">
+                <img src="CSS/banner1.jpg" alt="">
+                <div class="ban1_info">
+                    <a href="">Espresso Americano</a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit expedita tempore amet eos
+                        optio corrupti?</p>
+                </div>
+            </div>
+            <div class="prod_2">
+                <img src="CSS/banner2.jpg" alt="">
+                <div class="ban2_info">
+                    <a href="">Cappuccino Coffee</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, fugiat excepturi.</p>
+                </div>
+            </div>
+            <div class="prod_3">
+                <img src="CSS/banner3.jpg" alt="">
+                <div class="ban3_info">
+                    <a href="">Cold Brew Coffee</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis laboriosam</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="coffee_ser">
+            <h5>blend coffee</h5>
+            <h1>Our services.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rerum voluptatibus quaerat accusantium,
+                facere asperiores labore quasi tempora, beatae sint dignissimos veritatis excepturi quia odit nesciunt
+                quas eius. Quam, officia!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, maxime id voluptas nisi voluptatem
+                repellat minus eos doloremque facere illo.</p>
+            <button>Read More</button>
+        </div>
+
+        <div class="coffeetype_1">
+            <div class="type_1">
+                <span class="fa-sharp fa-solid fa-mug-saucer"></span>
+                <div>
+                    <a href="">types of coffee</a>
+                    <p>voluptatum quae corporis voluptatibus tempore, illum dolores perspiciatis qui consectetur nostrum
+                        assumenda quisquam, hic
+                        saepe architecto autem sint recusandae!</p>
+                </div>
+            </div>
+            <div class="type_1">
+                <span class="fa-sharp fa-solid fa-martini-glass"></span>
+                <div>
+                    <a href="">coffee & pastry</a>
+                    <p>voluptatum quae corporis voluptatibus tempore, illum dolores perspiciatis qui consectetur nostrum
+                        assumenda quisquam, hic
+                        saepe architecto autem sint recusandae!</p>
+                </div>
+            </div>
+            <div class="type_1">
+                <span class="fa-brands fa-pagelines"></span>
+                <div>
+                    <a href="">bean varieties</a>
+                    <p>voluptatum quae corporis voluptatibus tempore, illum dolores perspiciatis qui consectetur nostrum
+                        assumenda quisquam, hic
+                        saepe architecto autem sint recusandae!</p>
+                </div>
+            </div>
+            <div class="type_1">
+                <!-- <span class="fa-sharp fa-solid fa-coffee-bean"></span> -->
+                <span class=" fa-solid fa-leaf"></span>
+                <div>
+                    <a href="">coffee to go</a>
+                    <p>voluptatum quae corporis voluptatibus tempore, illum dolores perspiciatis qui consectetur nostrum
+                        assumenda quisquam, hic
+                        saepe architecto autem sint recusandae!</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <h5>coffee gallery</h5>
+        <h1>portfolio gallery</h1>
+
+        <div class="images">
+            <div class="gall_img">
+                <img src="CSS/coff1.jpg" alt="">
+                <div class="details_img">
+                    <h1>perfect cup</h1>
+                    <h5>cup of coffee/filtered</h5>
+                </div>
+            </div>
+            <div class="gall_img">
+                <img src="CSS/coff2.jpg" alt="">
+                <div class="details_img">
+                    <h1>baked beans</h1>
+                    <h5>cup of coffee/filtered</h5>
+                </div>
+            </div>
+            <div class="gall_img">
+                <img src="CSS/coff3.jpg" alt="">
+                <div class="details_img">
+                    <h1>MOcha</h1>
+                    <h5>filtered/morning</h5>
+                </div>
+            </div>
+            <div class="gall_img">
+                <img src="CSS/coff4.jpg" alt="">
+                <div class="details_img">
+                    <h1>capuccino</h1>
+                    <h5>cup of coffee/filtered</h5>
+                </div>
+            </div>
+            <div class="gall_img">
+                <img src="CSS/coff5.jpg" alt="">
+                <div class="details_img">
+                    <h1>macchiatio</h1>
+                    <h5>aroma/filtered</h5>
+                </div>
+            </div>
+            <div class="gall_img">
+                <img src="CSS/coff6.jpg" alt="">
+                <div class="details_img">
+                    <h1>coffee cup</h1>
+                    <h5>cup of coffee/filtered</h5>
+                </div>
+            </div>
+            <div class="gall_img">
+                <img src="CSS/coff7.jpg" alt="">
+                <div class="details_img">
+                    <h1>black tea</h1>
+                    <h5>cup of coffee/filtered</h5>
+                </div>
+            </div>
+            <div class="gall_img">
+                <img src="CSS/coff8.jpg" alt="">
+                <div class="details_img">
+                    <h1>filtered coffee</h1>
+                    <h5>cup of coffee/filtered</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="profile">
+        <h5>testimonials</h5>
+        <h1>what our customers say</h1>
+        <div id="owl-demo" class="owl-carousel owl-theme">
+            <div>
+                <div class="carousel_slide">
+                    <div class="item">
+                        <img src="CSS/profile1.jpg" alt="The Last of us">
+                    </div>
+                    <h2>Dennis Wilson</h2>
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis expedita eum quaerat commodi
+                        eius
+                        reiciendis assumenda quae aut odio quasi dolorum, voluptatum placeat sit ex soluta ipsa
+                        doloremque
+                        unde
+                        illum."</p>
+                </div>
+            </div>
+            <div>
+                <div class="carousel_slide">
+                    <div class="item">
+                        <img src="CSS/profile1.jpg" alt="The Last of us">
+                    </div>
+                    <h2>Dennis Wilson</h2>
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis expedita eum quaerat commodi
+                        eius
+                        reiciendis assumenda quae aut odio quasi dolorum, voluptatum placeat sit ex soluta ipsa
+                        doloremque
+                        unde
+                        illum."</p>
+                </div>
+            </div>
+            <div>
+                <div class="carousel_slide">
+                    <div class="item">
+                        <img src="CSS/profile1.jpg" alt="The Last of us">
+                    </div>
+                    <h2>Dennis Wilson</h2>
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis expedita eum quaerat commodi
+                        eius
+                        reiciendis assumenda quae aut odio quasi dolorum, voluptatum placeat sit ex soluta ipsa
+                        doloremque
+                        unde
+                        illum."</p>
+                </div>
+
+            </div>
+            <div>
+                <div class="carousel_slide">
+                    <div class="item">
+                        <img src="CSS/profile1.jpg" alt="The Last of us">
+                    </div>
+                    <h2>Dennis Wilson</h2>
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis expedita eum quaerat commodi
+                        eius
+                        reiciendis assumenda quae aut odio quasi dolorum, voluptatum placeat sit ex soluta ipsa
+                        doloremque
+                        unde
+                        illum."</p>
+                </div>
+            </div>
+        </div>
+        <div class="icon">
+            <a href="#"><span class="fa-brands fa-facebook"></span></a>
+            <a href="#"><span class="fa-brands fa-twitter"></span></a>
+            <a href="#"><span class="fa-brands fa-instagram"></span></a>
+        </div>
+        <!-- <div class="item"><img src="assets/fullimage2.jpg" alt="GTA V"></div>
+            <div class="item"><img src="assets/fullimage3.jpg" alt="Mirror Edge"></div> -->
+
+    </section>
+    <script>
+        $(document).ready(function () {
+
+            $("#owl-demo").owlCarousel({
+
+                navigation: true, // Show next and prev buttons
+
+                slideSpeed: 300,
+                paginationSpeed: 400,
+
+                items: 1,
+                itemsDesktop: false,
+                itemsDesktopSmall: false,
+                itemsTablet: false,
+                itemsMobile: false,
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 4000,
+                nav: false,
+                dots: true
+            });
+
+        });
+    </script>
+
+
+
+    <!-- <section class="posts">
+        <p>Our Coffee Blog</p>
+        <h1>Latest Blog Posts</h1>
+        <div class="images">
+            <div class="post_img1">
+                <img src="CSS/coff1.jpg" alt="">
+                <div class="post_info_1">
+                    <a href="#">Advantages and Disadvantages of COffee</a>
+
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos magni sit explicabo, nam hic nihil
+                        officia
+                        enim, autem recusandae aperiam velit esse voluptate soluta ea inventore sequi veritatis vero
+                        quas.
+                    </p>
+                    <button id="btnsubmit">Read More</button>
+                </div>
+            </div>
+            <div class="post_img2">
+                <img src="CSS/coff2.jpg" alt="">
+                <div class="post_info_2">
+                    <a href="#">Breawing Methods of Coffee</a>
+
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos magni sit explicabo, nam hic nihil
+                        officia
+                        enim, autem recusandae aperiam velit esse voluptate soluta ea inventore sequi veritatis vero
+                        quas.
+                    </p>
+                    <button id="btnsubmit">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- <section>
+        <div>vkjsbv</div>
+    </section> -->
+
+    <footer class="about_coff">
+        <div class="foot_coff">
+            <div class="cafe_logo">
+                <a href="#"><span class="fa-sharp fa-solid fa-mug-saucer"></span>Coffee Cafe</a>
+                <p>We make the delicious coffee for the coffee lovers. We are a team of dedicated coffee fans who
+                    celebrate exceptional coffee brands and roasters by providing our guests the unique opportunity to
+                    try coffee drinks</p>
+            </div>
+            <div class="cafe_add">
+                <h2>Get In Touch</h2>
+                <p>Address : 2005 Stokes Isle Apt. </p>
+                <p>896, Coffee Cafe Center, USA.</p>
+                <p>E-mail :info@mail.com</p>
+                <p>Phone : +(21)-255-886-1234</p>
+            </div>
+            <div class="cafe_news">
+                <h2>Newsletter</h2>
+                <p>Enter your email and receive the latest news from us. We'll never share your email address</p>
+                <form action="#" class="parent" method="post">
+                    <input type="email" name="email" placeholder="Your Email Address" required>
+                    <button><span class="fa-solid fa-paper-plane"></span></button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+
+            <p>© 2020 Coffee Cafe. All rights reserved | Designed by
+                <a href="https://w3layouts.com/">W3layouts</a>
+            </p>
+
+        </div>
+    </footer>
+</body>
+
+</html>

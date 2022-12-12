@@ -1,0 +1,163 @@
+@media (min-width: 768px) {
+    .menu_header {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        /* margin-top: 20px; */
+
+    }
+
+    .menu_header .back_image {
+        background-image: url(CSS/background.jpg);
+        height: 500px;
+        background-size: cover;
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+        position: relative;
+    }
+
+    .menu_header .back_image .navigation .logo {
+        width: 100%;
+    }
+
+    .menu_header .back_image .navigation .menus {
+        width: 100%;
+    }
+
+    .menu_header .back_image .navigation .search {
+        width: 100%;
+    }
+
+    .info {
+        width: 100%;
+        position: absolute;
+        top: 150px;
+    }
+
+    .more_info {
+
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .more_info .coffee_info {
+        width: 100%;
+    }
+
+    .more_info .coffee_images {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .more_info .coffee_images img {
+        height: 250px;
+        width: 200px;
+    }
+
+    .products {
+        width: 100%;
+    }
+
+    .products .prod_img {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .products .prod_img img {
+        height: 200px;
+        width: 353px;
+    }
+
+    .products .prod_img .prod_1 {
+        width: 100%;
+    }
+
+    .products .prod_img .prod_2 {
+        width: 100%;
+    }
+
+    .products .prod_img .prod_3 {
+        width: 100%;
+    }
+
+    .services {
+
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .services .coffee_ser {
+        width: 100%;
+    }
+
+    .services .coffeetype_1 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .gallery {
+        width: 100%;
+    }
+
+    .gallery .images {
+        width: 100%;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .profile {
+        width: 100%;
+    }
+
+    .profile #owl-demo .carousel_slide p {
+        width: 100%;
+        padding-left: 50px;
+    }
+
+    .about_coff {
+        width: 100%;
+    }
+
+    .about_coff .foot_coff {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about_coff .foot_coff .cafe_logo {
+        width: 50%;
+        margin-left: 40px;
+        padding-right: 25px;
+    }
+
+    .about_coff .foot_coff .cafe_logo a {
+        font-size: 0.2in;
+        font-family: cursive;
+        font-weight: bold;
+    }
+
+    .about_coff .foot_coff .cafe_add {
+        width: 50%;
+        margin-left: 40px;
+        padding-right: 25px;
+    }
+
+    .about_coff .foot_coff .cafe_news {
+        width: 50%;
+        margin-left: 40px;
+        padding-right: 25px;
+        padding-top: 30px;
+    }
+
+    .about_coff .copyright {
+        width: 100%;
+    }
+}

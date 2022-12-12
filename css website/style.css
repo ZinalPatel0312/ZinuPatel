@@ -1,0 +1,853 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu_header {
+    width: 100%;
+    display: flex;
+    /* margin-top: 20px; */
+    background-color: aqua;
+}
+
+.menu_header .back_image {
+    background-image: url(CSS/background.jpg);
+    height: 700px;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+
+.menu_header .back_image .logo {
+    width: 20%;
+    padding: 20px;
+    height: 70px;
+}
+
+.menu_header .logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.3in;
+    font-family: cursive;
+    font-weight: bold;
+
+}
+
+.menu_header .logo a span {
+    color: orange;
+    font-size: 0.3in;
+}
+
+
+.menu_header .back_image .menus {
+    width: 50%;
+    height: 70px;
+
+}
+
+.menu_header .menus ul {
+    list-style-type: none;
+    display: flex;
+
+    padding: 30px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu_header .menus li a {
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.menu_header .menus li span {
+    color: white;
+}
+
+.menu_header .menus li:hover {
+    background-color: orange;
+}
+
+.btnblog {
+    /* background-color: orange; */
+    display: inline-block;
+
+}
+
+.blog_menu {
+    display: none;
+    position: absolute;
+}
+
+.btnblog a {
+    color: orange;
+    display: flexbox;
+    /* padding: 5px; */
+    /* display: block; */
+}
+
+.btnblog:hover .blog_menu {
+    display: block;
+    width: 100px;
+    padding-top: 15px;
+    /* height: 50px; */
+    background-color: orange;
+    box-shadow: 5px 5px 5px white;
+
+}
+
+.menu_header .back_image .search {
+    width: 30%;
+    height: 70px;
+    text-align: center;
+
+}
+
+.menu_header .search span {
+    color: white;
+    font-size: 0.2in;
+    padding: 30px;
+
+}
+
+
+
+.menu_header .search button {
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: orange;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.info {
+
+    width: 50%;
+    position: absolute;
+    top: 150px;
+    padding: 20px;
+}
+
+.info h1 {
+    color: white;
+    padding-bottom: 30px;
+    font-size: 0.2in;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.info p {
+    color: white;
+    padding-bottom: 30px;
+    font-size: 0.2in;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.info button {
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: orange;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.more_info {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 50px;
+}
+
+.more_info .coffee_info {
+    width: 25%;
+}
+
+.more_info .coffee_images {
+    width: 75%;
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    gap: 30px;
+
+}
+
+.more_info .coffee_info h5 {
+    color: rgb(80, 78, 75);
+    text-transform: uppercase;
+    font-family: cursive;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.more_info .coffee_info h1 {
+    color: rgb(111, 71, 171);
+    text-transform: capitalize;
+    font-family: cursive;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.more_info .coffee_info p {
+    color: gray;
+    text-transform: capitalize;
+    font-family: cursive;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.more_info .coffee_info button {
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: orange;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.more_info .coffee_images img {
+    height: 314px;
+    width: 246px;
+    border-radius: 20px;
+    transition: 1s all ease;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.more_info .coffee_images img:hover {
+    transform: translateY(-25px);
+    /* transform: rotate(360deg); */
+}
+
+.products {
+    width: 100%;
+    /* display: flex; */
+    /* margin-top: 50px; */
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+    padding: 50px;
+    background-color: rgb(239, 235, 232);
+}
+
+.products .firstline,
+.secondline {
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: cursive;
+    color: gray;
+}
+
+.products .secondline {
+    text-transform: capitalize;
+    font-size: 0.4in;
+    color: rgb(107, 107, 160);
+
+}
+
+.products .prod_img {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    /* align-items: center; */
+    margin-top: 50px;
+    gap: 20px;
+
+
+}
+
+.products .prod_img img {
+    height: 300px;
+    width: 453px;
+    border-radius: 10px;
+    /* background-size: cover; */
+}
+
+.products .prod_img .prod_1 {
+    width: 33%;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.products .prod_img .prod_1 .ban1_info {
+    padding: 20px;
+    text-align: center;
+    /* width: 350px; */
+    /* font-weight: bold; */
+}
+
+.products .prod_img a {
+    text-decoration: none;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    color: rgb(106, 106, 142);
+
+    /* text-align: right; */
+}
+
+.products .prod_img a:hover {
+    color: orange;
+}
+
+.products .prod_img p {
+    padding: 10px;
+    font-family: cursive;
+    color: gray;
+}
+
+.products .prod_img .prod_2 {
+    width: 34%;
+    /* height: 500px; */
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.products .prod_img .prod_2 .ban2_info {
+    padding: 20px;
+    text-align: center;
+    /* font-weight: bold; */
+}
+
+.products .prod_img .prod_3 {
+    width: 33%;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.products .prod_img .prod_3 .ban3_info {
+    padding: 20px;
+    text-align: center;
+    /* font-weight: bold; */
+}
+
+.services {
+    width: 100%;
+    display: flex;
+    /* margin-top: 50px; */
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+    padding: 50px;
+    background-color: white;
+}
+
+.services .coffee_ser {
+    width: 40%;
+}
+
+.services .coffee_ser h5 {
+    color: gray;
+    text-transform: uppercase;
+    font-family: cursive;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.services .coffee_ser h1 {
+    color: rgb(111, 71, 171);
+    text-transform: capitalize;
+    font-family: cursive;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.services .coffee_ser p {
+    color: gray;
+    text-transform: capitalize;
+    font-family: cursive;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 35px;
+}
+
+.services .coffee_ser button {
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: orange;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.services .coffeetype_1 {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.services .coffeetype_1 .type_1 {
+    text-align: center;
+
+}
+
+.services .coffeetype_1 .type_1 span {
+    color: orange;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.services .coffeetype_1 .type_1 a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: cursive;
+    text-transform: capitalize;
+    /* padding-bottom: 40px; */
+}
+
+.services .coffeetype_1 .type_1 a:hover {
+    color: orange;
+}
+
+.services .coffeetype_1 .type_1 p {
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    color: gray;
+    line-height: 30px;
+    text-transform: capitalize;
+    padding-top: 20px;
+}
+
+.gallery {
+    width: 100%;
+    height: auto;
+    background-color: rgb(239, 235, 232);
+    /* position: relative; */
+}
+
+.gallery h5 {
+    padding-top: 20px;
+    /* margin-top: 20px; */
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: gray;
+    text-align: center;
+}
+
+.gallery h1 {
+    padding-top: 10px;
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: rgb(111, 71, 171);
+    text-align: center;
+}
+
+.gallery .images {
+    /* height: 170px;
+    width: 275px; */
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 20px;
+    column-gap: 0px;
+    padding: 40px;
+    margin-left: 90px;
+
+
+}
+
+.gallery .images .gall_img {
+    /* height: auto; */
+    width: 100%;
+    position: relative;
+}
+
+.gallery .images img {
+    height: 170px;
+    width: 250px;
+    border-radius: 20px;
+    margin-left: 10px;
+
+}
+
+.gallery .details_img {
+    /* position: absolute; */
+    height: 170px;
+    width: 250px;
+    margin-left: 10px;
+
+}
+
+.gallery .details_img h1 {
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: white;
+    text-align: center;
+}
+
+.gallery .details_img h5 {
+    padding-top: 20px;
+    /* margin-top: 20px; */
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: gray;
+    text-align: center;
+}
+
+.gallery .gall_img .details_img {
+    position: absolute;
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.8;
+    /* height: 100%; */
+    /* width: 100%; */
+    overflow: hidden;
+    transition: 1s all ease;
+    border-radius: 20px;
+    transform: scale(0);
+    /* transition: 1s all ease 280ms; */
+}
+
+.gallery .gall_img:hover .details_img {
+    /* height: 98%; */
+    transform: scale(1);
+    height: 170px;
+    width: 250px;
+    /* align-items: center; */
+}
+
+.profile {
+    /* height: 00px; */
+    width: 100%;
+    /* height: auto; */
+    /* text-align: center; */
+    padding-top: 50px;
+}
+
+.profile h5 {
+    padding-bottom: 10px;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: gray;
+    /* text-align: center; */
+}
+
+.profile h1 {
+    font-size: 35px;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: rgb(111, 71, 171);
+    padding-bottom: 40px;
+    /* text-align: center; */
+}
+
+#owl-demo .item img {
+    display: block;
+    /* width: 100%; */
+    /* height: auto; */
+    height: 133px;
+    width: 140px;
+    border-radius: 50%;
+    text-align: center;
+    /* margin-left: 45%; */
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+.profile #owl-demo .carousel_slide h2 {
+    /* font-size: 20px; */
+    font-family: cursive;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: rgb(111, 71, 171);
+    padding-bottom: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.profile #owl-demo .carousel_slide p {
+    text-align: center;
+    margin: auto;
+    /* height: 500px; */
+    width: 600px;
+    font-size: 20px;
+    line-height: 40px;
+    font-family: cursive;
+    font-weight: bold;
+    color: gray;
+    /* padding-left: 200px;
+    margin-left: 200px;
+    padding-bottom: 200px; */
+}
+
+.profile .icon {
+    text-align: center;
+}
+
+.profile .icon span {
+    /* height: 100px; */
+    padding-top: 20px;
+    width: 60px;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.about_coff {
+    width: 100%;
+    padding-top: 30px;
+    color: white;
+    font-family: cursive;
+
+}
+
+.about_coff .foot_coff {
+    width: 100%;
+    display: flex;
+    background-color: #362d27;
+}
+
+.about_coff .foot_coff .cafe_logo {
+    width: 40%;
+    margin-left: 100px;
+    padding-right: 25px;
+    padding-top: 30px;
+}
+
+.about_coff .foot_coff .cafe_logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.3in;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.about_coff .foot_coff .cafe_logo a span {
+    color: orange;
+    padding-bottom: 20px;
+}
+
+.about_coff .foot_coff .cafe_logo p {
+    line-height: 30px;
+}
+
+.about_coff .foot_coff .cafe_add {
+    width: 25%;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+.about_coff .foot_coff .cafe_add h2 {
+    padding-bottom: 20px;
+}
+
+.about_coff .foot_coff .cafe_add p {
+    padding-bottom: 10px;
+}
+
+.about_coff .foot_coff .cafe_news {
+    width: 35%;
+    margin-right: 100px;
+}
+
+.about_coff .foot_coff .cafe_news h2 {
+    padding-bottom: 20px;
+}
+
+.about_coff .foot_coff .cafe_news p {
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+/* .about_coff .foot_coff .cafe_news .parent {
+    position: relative;
+} */
+
+.about_coff .foot_coff .cafe_news input[type="email"] {
+    height: 40px;
+    width: 60%;
+    background-color: #53453c;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    opacity: 1;
+    padding: 15px 20px;
+
+    font-size: 18px;
+
+}
+
+.about_coff .foot_coff .cafe_news button {
+    height: 40px;
+    width: 15%;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 15px 20px;
+    font-size: 18px;
+
+    /* position: absolute; */
+}
+
+.about_coff .copyright {
+    width: 100%;
+    background-color: #2a2420;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.about_coff .copyright a {
+    text-decoration: none;
+    color: white;
+}
+
+.about_coff .copyright a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+/* .posts {
+    width: 100%;
+    background-color: rgb(239, 235, 232);
+
+}
+
+.posts p {
+    text-align: center;
+    padding-top: 20px;
+    color: gray;
+    font-family: cursive;
+}
+
+.posts h1 {
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(111, 71, 171);
+    font-family: cursive;
+    font-size: 30px;
+}
+
+.posts .images {
+    width: 100%;
+    display: flex;
+    text-align: center;
+   
+    margin: 30px;
+    gap: 10px;
+
+}
+
+.posts img {
+    height: 300px;
+    width: 453px;
+    border-radius: 10px;
+}
+
+.posts .images .post_img1 {
+    width: 50%;
+    background-color: white;
+    margin: 40px;
+    padding-right: 20px;
+    margin-left: 40px;
+}
+
+.posts .images .post_img1 .post_info_1 {
+    padding: 20px;
+    text-align: center;
+}
+
+.posts .images .post_img1 .post_info_1 a {
+    text-decoration: none;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    color: rgb(106, 106, 142);
+
+}
+
+.posts .images .post_img1 .post_info_1 a:hover {
+    color: orange;
+}
+
+.posts .images .post_img1 .post_info_1 p {
+    padding: 10px;
+    font-family: cursive;
+    color: gray;
+}
+
+.posts .images button {
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: orange;
+    font-family: cursive;
+    font-weight: bold;
+
+}
+
+.posts .images .post_img2 {
+    width: 50%;
+    background-color: white;
+    margin: 40px;
+
+    padding-right: 20px;
+    margin-right: 40px;
+}
+
+.posts .images .post_img2 .post_info_2 {
+    padding: 20px;
+    text-align: center;
+}
+
+.posts .images .post_img2 .post_info_2 a {
+    text-decoration: none;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    color: rgb(106, 106, 142);
+
+}
+
+.posts .images .post_img2 .post_info_2 a:hover {
+    color: orange;
+}
+
+.posts .images .post_img2 .post_info_2 p {
+    padding: 10px;
+    font-family: cursive;
+    color: gray;
+} */
