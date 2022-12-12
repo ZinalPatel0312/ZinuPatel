@@ -1,0 +1,338 @@
+.nav-logo {
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+    /* color: black; */
+    color: #fff;
+}
+
+.nav-logo:hover {
+    color: #fff;
+}
+
+.header {
+    background-image: url(images/banner1.jpg);
+    /* height: 800px; */
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header .menu_navi {
+    background-color: transparent;
+}
+
+.header .links a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.header .links-1 a {
+    color: gray;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.header .sub-menu h1 {
+    color: #fff;
+    font-size: 56px;
+    line-height: 66px;
+    font-weight: 600;
+}
+
+.header .sub-menu p {
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    max-width: 580px;
+}
+
+.header .sub-menu span {
+    font-size: 12px;
+    vertical-align: 1px;
+}
+
+.header .sub-menu a {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.header .about_course {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.header .about_course .icon span {
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.header .about_course .total-courses {}
+
+.header .about_course .total-courses a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #fff;
+}
+
+.header .about_course .total-courses p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.content-1 {
+    background-color: #080713;
+}
+
+.content-1 .sub-title {
+    position: relative;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    font-style: normal;
+    /* padding-left: 70px; */
+    color: #f35b04;
+}
+
+.content-1 .title-min {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 600;
+    position: relative;
+    color: #fff;
+}
+
+.content-1 p {
+    font-size: 17px;
+    line-height: 28px;
+    color: #b7b7b7;
+    font-weight: 400;
+}
+
+.top-courses {
+    background-color: #15151f;
+}
+
+.top-courses .sub-title {
+    position: relative;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    font-style: normal;
+    /* padding-left: 70px; */
+    color: #f35b04;
+}
+
+.top-courses .title-min {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 600;
+    position: relative;
+    color: #fff;
+}
+
+.top-courses .image1 {
+    background-image: url(images/image1.jpg);
+    background-size: cover;
+    padding: 10px;
+    border-radius: 10px;
+    height: 300px;
+    width: 280px;
+    display: grid;
+    align-items: flex-end;
+    transition: 1s all ease;
+    position: relative;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.top-courses .image1:hover {
+    transform: translateY(-25px);
+}
+
+.top-courses .image2 {
+    background-image: url(images/image2.jpg);
+    background-size: cover;
+    padding: 10px;
+    border-radius: 10px;
+    height: 300px;
+    width: 280px;
+    opacity: 0.5;
+    display: grid;
+    align-items: flex-end;
+    position: relative;
+    z-index: 1;
+    transition: 1s all ease;
+}
+
+.top-courses .image2:hover {
+    transform: translateY(-25px);
+}
+
+.top-courses .image3 {
+    background-image: url(images/image3.jpg);
+    background-size: cover;
+    padding: 10px;
+    border-radius: 10px;
+    width: 280px;
+    height: 300px;
+    display: grid;
+    align-items: flex-end;
+    position: relative;
+    opacity: 0.5;
+    z-index: 1;
+    transition: 1s all ease;
+}
+
+.top-courses .image3:hover {
+    transform: translateY(-25px);
+}
+
+.top-courses .image4 {
+    background-image: url(images/image4.jpg);
+    background-size: cover;
+    padding: 10px;
+    border-radius: 10px;
+    width: 280px;
+    height: 300px;
+    display: grid;
+    align-items: flex-end;
+    position: relative;
+    opacity: 0.5;
+    z-index: 1;
+    transition: 1s all ease;
+}
+
+.top-courses .image4:hover {
+    transform: translateY(-25px);
+}
+
+.top-courses .image5 {
+    background-image: url(images/image5.jpg);
+    opacity: 0.5;
+    background-size: cover;
+    padding: 10px;
+    border-radius: 10px;
+    width: 280px;
+    height: 300px;
+    display: grid;
+    align-items: flex-end;
+    position: relative;
+    z-index: 1;
+    transition: 1s all ease;
+}
+
+.top-courses .image5:hover {
+    transform: translateY(-25px);
+}
+
+.top-courses .image6 {
+    background-image: url(images/image6.jpg);
+    background-size: cover;
+    padding: 10px;
+    border-radius: 10px;
+    width: 280px;
+    height: 300px;
+    display: grid;
+    align-items: flex-end;
+    position: relative;
+    opacity: 0.5;
+    z-index: 1;
+    transition: 1s all ease;
+}
+
+.top-courses .image6:hover {
+    transform: translateY(-25px);
+}
+
+.top-courses .image7 {
+    background-image: url(images/image7.jpg);
+    background-size: cover;
+    padding: 10px;
+    border-radius: 10px;
+    height: 300px;
+    width: 280px;
+    display: grid;
+    align-items: flex-end;
+    position: relative;
+    opacity: 0.5;
+    z-index: 1;
+    transition: 1s all ease;
+}
+
+.top-courses .image7:hover {
+    transform: translateY(-25px);
+}
+
+.top-courses .image8 {
+    background-image: url(images/image8.jpg);
+    background-size: cover;
+    padding: 10px;
+    border-radius: 10px;
+    width: 280px;
+    height: 300px;
+    display: grid;
+    align-items: flex-end;
+    position: relative;
+    opacity: 0.5;
+    z-index: 1;
+    transition: 1s all ease;
+}
+
+.top-courses .image8:hover {
+    transform: translateY(-25px);
+}
+
+.top-courses .profile-1 img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.top-courses p {
+    color: white;
+    opacity: 0.9;
+    text-transform: capitalize;
+    font-size: 15px;
+    line-height: 14px;
+    font-weight: 400;
+}
+
+.top-courses a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.top-courses .read_more a {
+    color: white;
+    font-size: 25px;
+    background-color: orange;
+}
+
+.top-courses .read_more span {
+    font-size: 15px;
+    vertical-align: 1px;
+    padding-left: 2px;
+}
+
+.top-courses .read_more a:hover {
+    background-color: #080713;
+}
+
+.edu_instructor {
+    background-color: #080713;
+}
+
+.edu_instructor .instr_areabox {
+    padding: 40px 30px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 25px 98px 0 transparent;
+    color: #3c3c6e;
+    border-radius: 10px;
+}
