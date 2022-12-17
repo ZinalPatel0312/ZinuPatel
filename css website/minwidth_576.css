@@ -12,22 +12,52 @@
         height: 500px;
         background-size: cover;
         display: flex;
-        flex-wrap: nowrap;
+        /* flex-wrap: nowrap; */
         width: 100%;
         position: relative;
     }
 
-    .menu_header .back_image .navigation .logo {
+    .menu_header .back_image .logo {
         width: 100%;
+        height: 100px;
     }
 
-    .menu_header .back_image .navigation .menus {
+    .menu_header .back_image .menus {
         width: 100%;
+        height: 70px;
     }
 
-    .menu_header .back_image .navigation .search {
+    .menu_header .back_image .search {
         width: 100%;
+        height: auto;
     }
+
+    .menu_header .search .disp-menu {
+        display: inline;
+        /* margin: 20px; */
+        position: relative;
+    }
+
+    .menu_header .back_image .menus {
+        display: none;
+    }
+
+    .menu_header .back_image .list-menu {
+        display: inline-block;
+        position: absolute;
+        top: 62px;
+        right: 0px;
+        width: 120px;
+        z-index: 1;
+        height: 174px;
+        background-color: #faebd74a;
+    }
+
+    .menu_header .list-menu ul {
+        display: flex;
+        flex-direction: column;
+    }
+
 
     .info {
         width: 100%;

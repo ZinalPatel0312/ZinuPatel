@@ -104,19 +104,31 @@
     width: 30%;
     height: 70px;
     text-align: center;
-
 }
 
-.menu_header .search span {
+/* for toggle menubar */
+.menu_header .search .disp-menu {
+    display: none;
+    height: 40px;
+    width: 40px;
+    border: none;
+    margin-left: 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: orange;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.menu_header .search .fa-magnifying-glass {
     color: white;
     font-size: 0.2in;
     padding: 30px;
+    margin-left: 10px;
 
 }
 
-
-
-.menu_header .search button {
+.menu_header .search .btn1 {
     height: 40px;
     width: 120px;
     border: none;
@@ -738,116 +750,30 @@
     color: orange;
 }
 
-/* .posts {
-    width: 100%;
-    background-color: rgb(239, 235, 232);
-
-}
-
-.posts p {
-    text-align: center;
-    padding-top: 20px;
-    color: gray;
-    font-family: cursive;
-}
-
-.posts h1 {
-    text-align: center;
-    padding-top: 10px;
-    color: rgb(111, 71, 171);
-    font-family: cursive;
-    font-size: 30px;
-}
-
-.posts .images {
-    width: 100%;
-    display: flex;
-    text-align: center;
-   
-    margin: 30px;
-    gap: 10px;
-
-}
-
-.posts img {
-    height: 300px;
-    width: 453px;
-    border-radius: 10px;
-}
-
-.posts .images .post_img1 {
-    width: 50%;
-    background-color: white;
-    margin: 40px;
-    padding-right: 20px;
-    margin-left: 40px;
-}
-
-.posts .images .post_img1 .post_info_1 {
-    padding: 20px;
-    text-align: center;
-}
-
-.posts .images .post_img1 .post_info_1 a {
-    text-decoration: none;
-    padding-bottom: 20px;
-    font-weight: bold;
-    font-family: cursive;
-    color: rgb(106, 106, 142);
-
-}
-
-.posts .images .post_img1 .post_info_1 a:hover {
-    color: orange;
-}
-
-.posts .images .post_img1 .post_info_1 p {
-    padding: 10px;
-    font-family: cursive;
-    color: gray;
-}
-
-.posts .images button {
-    height: 40px;
-    width: 120px;
-    border: none;
-    border-radius: 20px;
+.dark_mode {
+    background-color: #726565;
     color: white;
-    background-color: orange;
-    font-family: cursive;
-    font-weight: bold;
-
 }
 
-.posts .images .post_img2 {
-    width: 50%;
-    background-color: white;
-    margin: 40px;
-
-    padding-right: 20px;
-    margin-right: 40px;
+.dark_mode .menu_header {
+    background-color: rgb(146, 84, 84);
+    color: white;
+    opacity: 0.6;
 }
 
-.posts .images .post_img2 .post_info_2 {
-    padding: 20px;
-    text-align: center;
+.dark_mode .more_info {
+    background-color: #726565;
+    color: white;
 }
 
-.posts .images .post_img2 .post_info_2 a {
-    text-decoration: none;
-    padding-bottom: 20px;
-    font-weight: bold;
-    font-family: cursive;
-    color: rgb(106, 106, 142);
-
+.dark_mode .more_info h5 {
+    color: white;
 }
 
-.posts .images .post_img2 .post_info_2 a:hover {
-    color: orange;
+.dark_mode .more_info h1 {
+    color: white;
 }
 
-.posts .images .post_img2 .post_info_2 p {
-    padding: 10px;
-    font-family: cursive;
-    color: gray;
-} */
+.dark_mode .more_info p {
+    color: white;
+}

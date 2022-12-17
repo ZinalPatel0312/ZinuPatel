@@ -17,16 +17,33 @@
         position: relative;
     }
 
-    .menu_header .back_image .navigation .logo {
+    .menu_header .back_image .logo {
         width: 100%;
+        height: auto;
     }
 
-    .menu_header .back_image .navigation .menus {
+    .menu_header .back_image .menus {
         width: 100%;
+        height: auto;
+        display: inline-block;
     }
 
-    .menu_header .back_image .navigation .search {
+    .menu_header .back_image .search .disp-menu {
+        display: none;
+    }
+
+    .menu_header .back_image .menus ul {
+        align-items: center;
+        /* padding: 20px; */
+    }
+
+    .menu_header .menus li a {
+        margin: 10px;
+    }
+
+    .menu_header .back_image .search {
         width: 100%;
+        height: auto;
     }
 
     .info {

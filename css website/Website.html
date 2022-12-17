@@ -6,13 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- style css cdn -->
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/solid.min.css"
-        integrity="sha512-uj2QCZdpo8PSbRGL/g5mXek6HM/APd7k/B5Hx/rkVFPNOxAQMXD+t+bG4Zv8OAdUpydZTU3UHmyjjiHv2Ww0PA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/solid.min.css" />
 
     <link rel="stylesheet" href="maxwidth_576.css">
     <link rel="stylesheet" href="minwidth_576.css">
@@ -21,14 +20,16 @@
     <link rel="stylesheet" href="minwidth_1200.css">
     <!-- jquery cdn -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <!-- css cdn -->
+    <!-- owl caeousel css cdn -->
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
-    <!-- js cdn -->
+    <!--owl caeousel js cdn -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+
+    <!-- theme changes script -->
 </head>
 <!-- <style>
     .dark-mode {
@@ -76,9 +77,14 @@
                 </ul>
             </div>
             <div class="search">
+
                 <span class="fa-sharp fa-solid fa-magnifying-glass"></span>
-                <button>Buy Now</button>
-                <span class="fa-sharp fa-solid fa-moon"></span>
+                <button class="btn1">Buy Now</button>
+                <span class="fa-solid fa-moon"></span>
+                <script src="change_theme.js"></script>
+
+                <button class="disp-menu"><span class="fa-solid fa-bars"></span></button>
+
             </div>
         </div>
     </header>
@@ -359,44 +365,6 @@
     </script>
 
 
-
-    <!-- <section class="posts">
-        <p>Our Coffee Blog</p>
-        <h1>Latest Blog Posts</h1>
-        <div class="images">
-            <div class="post_img1">
-                <img src="CSS/coff1.jpg" alt="">
-                <div class="post_info_1">
-                    <a href="#">Advantages and Disadvantages of COffee</a>
-
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos magni sit explicabo, nam hic nihil
-                        officia
-                        enim, autem recusandae aperiam velit esse voluptate soluta ea inventore sequi veritatis vero
-                        quas.
-                    </p>
-                    <button id="btnsubmit">Read More</button>
-                </div>
-            </div>
-            <div class="post_img2">
-                <img src="CSS/coff2.jpg" alt="">
-                <div class="post_info_2">
-                    <a href="#">Breawing Methods of Coffee</a>
-
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos magni sit explicabo, nam hic nihil
-                        officia
-                        enim, autem recusandae aperiam velit esse voluptate soluta ea inventore sequi veritatis vero
-                        quas.
-                    </p>
-                    <button id="btnsubmit">Read More</button>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-    <!-- <section>
-        <div>vkjsbv</div>
-    </section> -->
-
     <footer class="about_coff">
         <div class="foot_coff">
             <div class="cafe_logo">
@@ -429,6 +397,15 @@
 
         </div>
     </footer>
+
+    <script>
+        let disp_menu = document.querySelector(".disp-menu");
+        let nav_link = document.querySelector(".menus");
+
+        disp_menu.addEventListener("click", function () {
+            nav_link.classList.toggle("list-menu");
+        });
+    </script>
 </body>
 
 </html>

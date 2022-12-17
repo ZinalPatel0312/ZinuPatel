@@ -312,6 +312,7 @@
     color: white;
     font-size: 25px;
     background-color: orange;
+    border: none;
 }
 
 .top-courses .read_more span {
@@ -321,18 +322,67 @@
 }
 
 .top-courses .read_more a:hover {
-    background-color: #080713;
+    background-color: #3d348b;
 }
 
 .edu_instructor {
     background-color: #080713;
 }
 
-.edu_instructor .instr_areabox {
+.edu_instructor .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.edu_instructor .area-box {
     padding: 40px 30px;
     position: relative;
     z-index: 1;
-    box-shadow: 0 25px 98px 0 transparent;
-    color: #3c3c6e;
+    background-color: #15151f;
     border-radius: 10px;
+    transition: 1s all ease;
+}
+
+.edu_instructor .area-box:hover {
+    background-color: #020108;
+    transform: translateY(-20px);
+    box-shadow: rgba(0, 25px, 98px, 0);
+}
+
+.edu_instructor .area-box .icon span {
+    background-color: #3d348b;
+    font-size: 30px;
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    line-height: 65px;
+    color: white;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.edu_instructor .area-box .area-box-info h4 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.edu_instructor .area-box .area-box-info span {
+    font-size: 12px;
+    vertical-align: 1px;
+    margin-left: 5px;
+}
+
+.edu_instructor .btn-style {
+    padding: 12px 35px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+    font-weight: 600;
+    transition: 1s all ease;
+    border-radius: 10px;
+    border: none;
+}
+
+.edu_instructor .btn-style:hover {
+    background-color: #3d348b;
 }
