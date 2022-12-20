@@ -1,0 +1,772 @@
+.nav-logo {
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+    /* color: black; */
+    color: #fff;
+}
+
+.nav-logo:hover {
+    color: #fff;
+}
+
+.header {
+    background-image: url(images/banner1.jpg);
+    /* height: 800px; */
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header .menu_navi {
+    background-color: transparent;
+}
+
+.header .links a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.header .links-1 a {
+    color: gray;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.header .sub-menu h1 {
+    color: #fff;
+    font-size: 56px;
+    line-height: 66px;
+    font-weight: 600;
+}
+
+.header .sub-menu p {
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    max-width: 580px;
+}
+
+.header .sub-menu span {
+    font-size: 12px;
+    vertical-align: 1px;
+}
+
+.header .sub-menu a {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.header .about_course {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.header .about_course .icon span {
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+
+
+.header .about_course .total-courses a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #fff;
+}
+
+.header .about_course .total-courses p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.content-1 {
+    background-color: #080713;
+}
+
+.content-1 .sub-title {
+    position: relative;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    font-style: normal;
+    /* padding-left: 70px; */
+    color: #f35b04;
+}
+
+.content-1 .title-min {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 600;
+    position: relative;
+    color: #fff;
+}
+
+.content-1 p {
+    font-size: 17px;
+    line-height: 28px;
+    color: #b7b7b7;
+    font-weight: 400;
+}
+
+.top-courses {
+    background-color: #15151f;
+}
+
+.top-courses .sub-title {
+    position: relative;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    font-style: normal;
+    /* padding-left: 70px; */
+    color: #f35b04;
+}
+
+.top-courses .title-min {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 600;
+    position: relative;
+    color: #fff;
+}
+
+.top-courses .image1 {
+    background-image: url(images/image1.jpg);
+    background-size: cover;
+    padding: 10px;
+    border-radius: 10px;
+    height: 300px;
+    width: 280px;
+    display: grid;
+    align-items: flex-end;
+    transition: 1s all ease;
+    position: relative;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.top-courses .image1:hover {
+    transform: translateY(-25px);
+}
+
+.top-courses .image2 {
+    background-image: url(images/image2.jpg);
+    background-size: cover;
+    padding: 10px;
+    border-radius: 10px;
+    height: 300px;
+    width: 280px;
+    opacity: 0.5;
+    display: grid;
+    align-items: flex-end;
+    position: relative;
+    z-index: 1;
+    transition: 1s all ease;
+}
+
+.top-courses .image2:hover {
+    transform: translateY(-25px);
+}
+
+.top-courses .image3 {
+    background-image: url(images/image3.jpg);
+    background-size: cover;
+    padding: 10px;
+    border-radius: 10px;
+    width: 280px;
+    height: 300px;
+    display: grid;
+    align-items: flex-end;
+    position: relative;
+    opacity: 0.5;
+    z-index: 1;
+    transition: 1s all ease;
+}
+
+.top-courses .image3:hover {
+    transform: translateY(-25px);
+}
+
+.top-courses .image4 {
+    background-image: url(images/image4.jpg);
+    background-size: cover;
+    padding: 10px;
+    border-radius: 10px;
+    width: 280px;
+    height: 300px;
+    display: grid;
+    align-items: flex-end;
+    position: relative;
+    opacity: 0.5;
+    z-index: 1;
+    transition: 1s all ease;
+}
+
+.top-courses .image4:hover {
+    transform: translateY(-25px);
+}
+
+.top-courses .image5 {
+    background-image: url(images/image5.jpg);
+    opacity: 0.5;
+    background-size: cover;
+    padding: 10px;
+    border-radius: 10px;
+    width: 280px;
+    height: 300px;
+    display: grid;
+    align-items: flex-end;
+    position: relative;
+    z-index: 1;
+    transition: 1s all ease;
+}
+
+.top-courses .image5:hover {
+    transform: translateY(-25px);
+}
+
+.top-courses .image6 {
+    background-image: url(images/image6.jpg);
+    background-size: cover;
+    padding: 10px;
+    border-radius: 10px;
+    width: 280px;
+    height: 300px;
+    display: grid;
+    align-items: flex-end;
+    position: relative;
+    opacity: 0.5;
+    z-index: 1;
+    transition: 1s all ease;
+}
+
+.top-courses .image6:hover {
+    transform: translateY(-25px);
+}
+
+.top-courses .image7 {
+    background-image: url(images/image7.jpg);
+    background-size: cover;
+    padding: 10px;
+    border-radius: 10px;
+    height: 300px;
+    width: 280px;
+    display: grid;
+    align-items: flex-end;
+    position: relative;
+    opacity: 0.5;
+    z-index: 1;
+    transition: 1s all ease;
+}
+
+.top-courses .image7:hover {
+    transform: translateY(-25px);
+}
+
+.top-courses .image8 {
+    background-image: url(images/image8.jpg);
+    background-size: cover;
+    padding: 10px;
+    border-radius: 10px;
+    width: 280px;
+    height: 300px;
+    display: grid;
+    align-items: flex-end;
+    position: relative;
+    opacity: 0.5;
+    z-index: 1;
+    transition: 1s all ease;
+}
+
+.top-courses .image8:hover {
+    transform: translateY(-25px);
+}
+
+.top-courses .profile-1 img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.top-courses p {
+    color: white;
+    opacity: 0.9;
+    text-transform: capitalize;
+    font-size: 15px;
+    line-height: 14px;
+    font-weight: 400;
+}
+
+.top-courses a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.top-courses .read_more a {
+    color: white;
+    font-size: 25px;
+    background-color: orange;
+    border: none;
+}
+
+.top-courses .read_more span {
+    font-size: 15px;
+    vertical-align: 1px;
+    padding-left: 2px;
+}
+
+.top-courses .read_more a:hover {
+    background-color: #3d348b;
+}
+
+.edu_instructor {
+    background-color: #080713;
+}
+
+.edu_instructor .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.edu_instructor .area-box {
+    padding: 40px 30px;
+    position: relative;
+    z-index: 1;
+    background-color: #15151f;
+    border-radius: 10px;
+    transition: 1s all ease;
+}
+
+.edu_instructor .area-box:hover {
+    background-color: #020108;
+    transform: translateY(-20px);
+    box-shadow: rgba(0, 25px, 98px, 0);
+}
+
+.edu_instructor .area-box .icon span {
+    background-color: #3d348b;
+    font-size: 30px;
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    line-height: 65px;
+    color: white;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.edu_instructor .area-box .area-box-info h4 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.edu_instructor .area-box .area-box-info span {
+    font-size: 12px;
+    vertical-align: 1px;
+    margin-left: 5px;
+}
+
+.edu_instructor .btn-style {
+    padding: 12px 35px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+    font-weight: 600;
+    transition: 1s all ease;
+    border-radius: 10px;
+    border: none;
+}
+
+.edu_instructor .btn-style:hover {
+    background-color: #3d348b;
+}
+
+.review {
+    background-image: url(images/banner2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+    opacity: 1.1;
+    position: relative;
+}
+
+.review .educating {
+    position: relative;
+}
+
+.review::before {
+    content: "";
+    background: rgb(16 15 19 / 66%);
+    position: absolute;
+    top: 0;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.review .educating {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.review h3 {
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 500;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.review .middle-button a {
+    padding: 12px 35px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    transition: 1s all ease;
+    border-radius: 10px;
+    border: none;
+    margin-top: 40px;
+}
+
+.review .middle-button a:hover {
+    background-color: #3d348b;
+}
+
+.count {
+    margin-top: -70px;
+    z-index: 10;
+    position: relative;
+
+}
+
+.count .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.count .counter {
+    background-color: #15151f;
+    box-shadow: rgb(1 1 1 / 5%) 1px 1px 5px 0px;
+    border: 1px solid white;
+    padding: 40px 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.count .counter span {
+    background-color: #3d348b;
+    font-size: 26px;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    color: #fff;
+    text-align: center;
+}
+
+.count .counter .count-title {
+    font-size: 2.6em;
+    font-weight: 600;
+    color: #fff;
+}
+
+.count .counter p {
+    text-transform: capitalize;
+    color: white;
+    font-weight: 600;
+}
+
+.video .history-info {
+    background-image: url(images/banner1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    display: grid;
+    align-items: center;
+    min-height: 500px;
+    border-radius: 10px;
+}
+
+.video .history-info span {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    font-size: 26px;
+    padding-left: 2px;
+    text-align: center;
+    line-height: 76px;
+    border-radius: 50%;
+    animation: 1s linear infinite;
+    transition: 0.3s ease-in-out;
+    /* -webkit-animation: ripple 1s linear infinite; */
+    /* animation: ripple 1s linear infinite; */
+    color: orange;
+    border: transparent;
+    background: #fff;
+}
+
+#zoom-animation {
+    max-width: 750px;
+    margin: 40px auto;
+    position: relative;
+}
+
+iframe {
+    display: none;
+}
+
+/* about blog post */
+.blog-post {
+    background-color: #080713;
+}
+
+.blog-post .sub-title {
+    position: relative;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    font-style: normal;
+    /* padding-left: 70px; */
+    color: #f35b04;
+}
+
+.blog-post h3 {
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    line-height: 48px;
+}
+
+/* .blog-post .row {
+    display: flex;
+    flex-wrap: nowrap;
+} */
+
+.blog-post .card {
+    border: none;
+    background-color: #15151f;
+    border-radius: 15px;
+    transition: 1s all ease;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+}
+
+.blog-post .card .card-head {
+    border: none;
+    border-radius: 15px;
+}
+
+.blog-post .card:hover {
+    transform: translateY(-25px);
+}
+
+.blog-post .card-discription {
+    padding: 25px;
+    flex: 1 1 auto;
+    min-height: 1px;
+}
+
+.blog-post .card-discription a.blog-dis {
+    font-size: 25px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+    color: #fff;
+}
+
+.blog-post .card-discription a.blog-dis:hover {
+    color: orange;
+}
+
+.blog-post .card-discription .author {
+    display: grid;
+    grid-template-columns: 40px auto;
+    gap: 20px;
+}
+
+.blog-post .card-discription .author li {
+    list-style: none;
+}
+
+.blog-post .card-discription .author li a {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.blog-post .card-discription .author li span {
+    color: #fff;
+}
+
+.newsletter {
+    background-color: #15151f;
+}
+
+.newsletter .sub-title {
+    position: relative;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #f35b04;
+}
+
+.newsletter .heading {
+    position: relative;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.sign-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    max-width: 750px;
+    margin: 40px 0;
+}
+
+.newsletter .news-info input {
+    background: #f5f5f5;
+    width: 100%;
+    font-size: 16px;
+    padding: 0px 20px;
+    color: #b7b7b7;
+    height: 55px;
+    text-align: left;
+    outline: none;
+    float: left;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+.newsletter .news-info .btn-style {
+    padding: 12px 35px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    transition: 0.3s ease-in;
+    /* color: white; */
+    color: #fff;
+    background-color: #f35b04;
+    border-color: #f35b04;
+}
+
+.newsletter .news-info .btn-style:hover {
+    background-color: #3d348b;
+    border: none;
+}
+
+.footer {
+    background-color: #080713;
+}
+
+.footer a.navbar-brand {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff;
+    padding: 0;
+}
+
+.footer p {
+    font-size: 17px;
+    line-height: 26px;
+    color: #63676b;
+    font-weight: 400;
+}
+
+.footer .foot-icon a {
+    margin-right: 10px;
+    color: #f35b04;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    background-color: #fff;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.footer .foot-icon a:hover {
+    color: #fff;
+    background-color: #f35b04;
+}
+
+.footer h6 {
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    position: relative;
+    color: #fff;
+}
+
+.footer li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 26px;
+    color: #63676b;
+}
+
+.footer a:hover {
+    color: #f35b04;
+}
+
+.copyright {
+    padding: 20px;
+    /* background-color: #080713; */
+    border-top: 1px solid rgba(255, 255, 255, 0.155);
+    background-color: #080713;
+}
+
+.copyright p.foot-copy {
+    color: #ddd;
+    font-size: 17px;
+}
+
+.copyright .foot-copy a {
+    color: #f35b04;
+    text-decoration: none;
+}
+
+.copyright .foot-copy a:hover {
+    color: #fff;
+}
+
+.copyright li {
+    list-style-type: none;
+}
+
+.copyright li a {
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 26px;
+    color: #63676b;
+}
+
+.copyright li a:hover {
+    color: #f35b04;
+}
